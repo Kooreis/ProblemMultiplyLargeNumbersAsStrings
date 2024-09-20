@@ -1,10 +1,6 @@
-function multiply(num1, num2) {
-    let len1 = num1.length;
-    let len2 = num2.length;
-    if (len1 == 0 || len2 == 0) return "0";
+for (let i = len1 - 1; i >= 0; i--) {
+        let carry = 0;
+        let n1 = num1[i].charCodeAt() - '0'.charCodeAt();
 
-    let result = Array(len1 + len2).fill(0);
-
-    let i_n1 = 0;
-    let i_n2 = 0;
+        i_n2 = 0;
 }
